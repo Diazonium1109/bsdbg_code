@@ -1,0 +1,25 @@
+---
+title: "test"
+author: "utkarsh"
+date: "2025-09-22"
+output: pdf_document
+---
+
+
+<!-- This is how we add a comment when writing outside the ```{r} ``` environment. When you write your code inside that thing, we can simply use # as we do in R -->
+
+**Analysis of cars data**\ <!-- ** Using double stars will make the sentence bold**-->
+<!-- A back slash (\) will shift the content in the next line -->
+*cars data* <!-- * Using single star will make the sentence italic*
+
+
+<!--Below is the format how you write R Code and execute this to your program
+You need to use the ```{r} ``` environment to write R code.
+The cars data is an in-built data set which already comes with R-->
+
+```{r}
+data = cars
+summary(cars)
+plot(cars)
+#this is a comment for inside the R code environment
+```
